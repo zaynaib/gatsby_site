@@ -16,13 +16,20 @@ export default function Posts({ data }) {
   return (
     <Layout>
       <p>
-        We're the only site running on your computer dedicated to showing the
-        best photos and videos of pandas eating lots of food.
+        My Latest Articles on Dev.to
       </p>
+      <hr></hr>
       <ul>
         {
           metaData.map((value,index) => {
-            return <li key={index}><a href={value.url}>{value.title}</a></li>
+            return (<li key={index}><a href={value.url}>
+              <div>
+              <p>{value.date}<br></br>
+              {value.title}<br></br>
+              </p>
+              </div>
+              
+              </a></li>)
           })
 
         }
