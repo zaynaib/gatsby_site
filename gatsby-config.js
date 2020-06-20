@@ -21,6 +21,7 @@ module.exports = {
         // This is your username on Dev.to
         username: 'zaynaib'
       }
-    }
+    },
+    `gatsby-plugin-sass`
   ],
 }

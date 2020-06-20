@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import {usePosts} from "../hooks/usePosts"
 
 export default function About({ data }) {
 
