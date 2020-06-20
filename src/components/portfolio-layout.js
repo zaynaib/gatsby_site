@@ -1,5 +1,5 @@
 import React from "react";
-import "./mystyles.scss"
+import "./mystyles.scss";
 
 //create at table
 // tr 
@@ -8,12 +8,14 @@ import "./mystyles.scss"
 //combo of super dev and black girl demo
 export default function PortfolioLayout(props){
     return(
-        <table>
-            <tr>
-                <th>Project Name</th>
-                <th>Description</th>
-                <th>Links</th>
-            </tr>
+        <table className="table">
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Links</th>
+                </tr>
+            </thead>
 
             <tr>
             
@@ -26,8 +28,8 @@ export default function PortfolioLayout(props){
                 </td>
 
                 <td>
-                    <button>vist</button>
-                    <button>source</button>
+                    <button className="button is-link">visit</button>
+                    <button className="button is-primary">source</button>
                 </td>
 
             </tr>
