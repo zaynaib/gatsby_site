@@ -1,6 +1,7 @@
 import React from "react";
 import "./mystyles.scss";
 
+
 //create at table
 // tr 
 //three table data
@@ -17,22 +18,24 @@ export default function PortfolioLayout(props){
                 </tr>
             </thead>
 
-            <tr>
-            
-                <td>
-                    {props.name} 
-                </td>
+            <tbody>
+                <tr>
+                
+                    <td>
+                        {props.name} 
+                    </td>
 
-                <td>
-                    {props.description} 
-                </td>
+                    <td>
+                        {props.description} 
+                    </td>
 
-                <td>
-                    <button className="button is-link">visit</button>
-                    <button className="button is-primary">source</button>
-                </td>
+                    <td>
+                        <button className="button is-link mr-1">visit</button>
+                        <button className="button is-primary">source</button>
+                    </td>
 
-            </tr>
+                </tr>
+            </tbody>
         </table>
     )
 }

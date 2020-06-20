@@ -2,15 +2,15 @@ import React from "react"
 
 export default function Talk(props){
     return(
-        <p>
+        <div className="mb-2">
             <span>
-              {props.month} {props.year}
+              <p>{props.month} {props.year}</p>
               <a href = {props.link}>{props.name} </a>
             
             </span>
             <br/>
-            {props.description}
-        </p>
+            <p>{props.description}</p>
+        </div>
     )
 }
 

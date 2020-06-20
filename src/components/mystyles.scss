@@ -1,6 +1,11 @@
 @charset "utf-8";
 
 // If need, change your variables before importing Bulma
-$title-color: #ff0000;
+//https://bulma.io/documentation/customize/variables/
+$title-color: #030303;
+p{
+    font-size: 20px;
+}
 
+$link: #33EEFF;
 @import "~bulma/bulma.sass";

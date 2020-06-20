@@ -19,7 +19,8 @@ module.exports = {
       resolve: "gatsby-source-dev",
       options: {
         // This is your username on Dev.to
-        username: 'zaynaib'
+        username: 'zaynaib',
+
       }
     },
     `gatsby-plugin-sass`
