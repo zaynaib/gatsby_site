@@ -3,7 +3,7 @@ import React from "react"
 import { Link } from "gatsby"
 import layoutStyles from "./layout.module.css"
 import { rhythm } from "../utils/typography"
-import "./mystyles.scss";
+// import "./mystyles.scss";
 
 
 
