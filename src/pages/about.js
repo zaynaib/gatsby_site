@@ -9,6 +9,8 @@ export default function About({ data }) {
     <Layout>
       <AboutLayout>
         <p>
+        My name is Jasmine Wilson, I'm originally from Michigan but after a few pit stops I've landed my self in Seattle, WA where I am a UX designer.
+
 
         </p>
 

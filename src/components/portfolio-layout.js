@@ -1,5 +1,5 @@
 import React from "react";
-import "./mystyles.scss";
+// import "./mystyles.scss";
 
 
 //create at table
@@ -31,7 +31,7 @@ export default function PortfolioLayout(props){
 
                     <td>
                         <a href={props.webpage}className="button is-link mr-1">visit</a>
-                        <a href={props.github-repo}className="button is-primary">source</a>
+                        <a href={props.github}className="button is-primary">source</a>
                     </td>
 
                 </tr>
