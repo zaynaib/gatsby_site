@@ -30,8 +30,8 @@ export default function PortfolioLayout(props){
                     </td>
 
                     <td>
-                        <button className="button is-link mr-1">visit</button>
-                        <button className="button is-primary">source</button>
+                        <a href={props.webpage}className="button is-link mr-1">visit</a>
+                        <a href={props.github-repo}className="button is-primary">source</a>
                     </td>
 
                 </tr>
