@@ -15,14 +15,15 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    // {
-    //   resolve: "gatsby-source-dev",
-    //   options: {
-    //     // This is your username on Dev.to
-    //     username: 'zaynaib',
 
-    //   }
-    // },
+    {
+      resolve: "gatsby-source-dev",
+      options: {
+        // This is your username on Dev.to
+        username: 'zaynaib',
+        apiKey : process.env.GATSBY_DEV_API_KEY
+ }
+     },
     // `gatsby-plugin-sass`
   ],
 }
