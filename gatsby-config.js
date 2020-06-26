@@ -20,6 +20,7 @@ module.exports = {
       options: {
         // This is your username on Dev.to
         username: 'zaynaib',
+        apiKey : `your-key-here`
 
       }
     },
