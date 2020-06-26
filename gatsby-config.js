@@ -20,7 +20,7 @@ module.exports = {
       options: {
         // This is your username on Dev.to
         username: 'zaynaib',
-        apiKey : `your-key-here`
+        apiKey : process.env.GATSBY_DEV_API_KEY
 
       }
     },
