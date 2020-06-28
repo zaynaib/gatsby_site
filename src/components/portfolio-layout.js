@@ -1,4 +1,5 @@
 import React from "react";
+import "./portfolio.css";
 
 
 //create at table
