@@ -1,7 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
-import Talk from "../components/talks"
 import PortfolioLayout from "../components/portfolio-layout"
 
 
