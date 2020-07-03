@@ -32,6 +32,12 @@ export default function Layout({ children }) {
      <h2 className="title">Full-Stack Developer / Data Enthusiast</h2>
     </header>
       {children}
+      <footer>
+        <a>Github</a>
+        <a>Twitter</a>
+        <a>LinkedIn</a>
+      
+      </footer>
     </div>
   )
 }
