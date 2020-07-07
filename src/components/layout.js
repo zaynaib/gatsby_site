@@ -15,7 +15,7 @@ const ListLink = props => (
 
 export default function Layout({ children }) {
   return (
-    <div className={layoutStyles.layout}>
+    <div className={layoutStyles.layout} >
     <nav>
       <ul class="navbar-menu" style={{ listStyle: `none`, float: `right` }}>
      
@@ -26,12 +26,16 @@ export default function Layout({ children }) {
         <ListLink to="/contact/">Contact</ListLink>
       </ul>
       </nav>
-
+    
     <header style={{ marginBottom: `1.5rem` }}>
      <h1 className="title">Hi I'm Ola</h1>
      <h2 className="title">Full-Stack Developer / Data Enthusiast</h2>
     </header>
+    <div className="content">
+
       {children}
+      </div>
+
       <footer>
         <a href="https://github.com/zaynaib">Github</a>
         <a href="https://twitter.com/AmazingSpeciali">Twitter</a>
