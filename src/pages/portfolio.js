@@ -8,7 +8,7 @@ export default function Portfolio() {
     <Layout>
 
     
-        <PortfolioLayout name = "Frogger Arcade Game"  description=""/>
+        <PortfolioLayout name = "Frogger Arcade Game"  description="Copy Cat of the 1980's popular Game Frogger" webpage=" https://zaynaib.github.io/frogger-arcade-game/" github= "https://github.com/zaynaib/frogger-arcade-game/"/>
         <PortfolioLayout name = "Frogger Arcade Game"  description=""/>
         <PortfolioLayout name = "Frogger Arcade Game"  description=""/>
         <PortfolioLayout name = "Frogger Arcade Game"  description=""/>
