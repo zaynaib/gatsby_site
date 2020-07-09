@@ -2,9 +2,23 @@
     margin:3rem auto;
     max-width: 650px;
     padding: 0 1rem;  
-    color:'pink';
+
 }
 
+
+.content{
+    min-height: calc(100vh - 70px);
+
+}
+
+footer > a{
+    margin: 0.5em;
+}
+footer{
+    position: relative;
+    height: 50px;
+
+}
 
 /* h1{
     font-family: 'Permanent Marker', cursive;
