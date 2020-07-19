@@ -12,19 +12,10 @@ export default function Table(props) {
      </thead>
 
      <tbody>
-     <tr>
-     
-         <td>
-             {props.name} 
-         </td>
-
-         <td>
-             {props.description} 
-         </td>
+  
 
          <Row ></Row>
 
-     </tr>
  </tbody>
 
 
