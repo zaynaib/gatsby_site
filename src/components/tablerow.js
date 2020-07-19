@@ -1,5 +1,5 @@
 import React from "react"
-import "./row.css"
+import "../styles/row.css"
 export default function Row(props) {
     const isWebPage = props.isWebPage;
     if(isWebPage){
