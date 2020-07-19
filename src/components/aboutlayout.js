@@ -1,6 +1,6 @@
 import React from "react"
 // import "./about.css"
-import "./about-module.css"
+import "../styles/about-module.css"
 import PowerPuff from "../images/powerpuff.png"
 //http://www.jasminewilson.com/about - inspo
 

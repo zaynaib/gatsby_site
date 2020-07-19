@@ -1,5 +1,5 @@
 import React from "react"
-import talkStyles from "./talks.module.css"
+import talkStyles from "../styles/talks.module.css"
 
 export default function Talk(props){
     return(
