@@ -10,7 +10,7 @@ export default function About({ data }) {
     <Layout>
       <AboutLayout>
         <p>
-          My name is Zaynaib Giwa, but everyone calls me Ola.
+          My name is Zaynaib Giwa.
           I am a Data Analyst who also enjoys web development.
           I was born and raised in Chicago where I am currently a Teaching Assistant for a Data Science Bootcamp.
 
