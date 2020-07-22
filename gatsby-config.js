@@ -24,6 +24,7 @@ module.exports = {
         apiKey : process.env.GATSBY_DEV_API_KEY
  }
      },
+     `gatsby-plugin-react-helmet`
     // `gatsby-plugin-sass`
   ],
 }

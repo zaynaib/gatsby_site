@@ -3,6 +3,8 @@ import React from "react"
 import { Link } from "gatsby"
 import layoutStyles from "../styles/layout.module.css"
 import { rhythm } from "../utils/typography"
+import { Helmet } from "react-helmet"
+
 
 
 
@@ -15,6 +17,10 @@ const ListLink = props => (
 export default function Layout({ children }) {
   return (
     <div className={layoutStyles.layout} >
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Code with Ola</title>
+    </Helmet>
     <nav>
       <ul class="navbar-menu" style={{ listStyle: `none`, float: `right` }}>
      
