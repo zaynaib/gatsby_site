@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 import AboutLayout from "../components/aboutlayout"
 
 export default function About({ data }) {
-
+ 
   return (
     <Layout>
       <AboutLayout>

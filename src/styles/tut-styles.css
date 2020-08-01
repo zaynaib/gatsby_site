@@ -1,0 +1,49 @@
+
+  .wrapper{
+    width:960px;
+    margin:0 auto;
+    display:grid;
+     grid-template-columns: repeat(2, 1fr);
+  }
+
+
+img{
+    border-radius:100%;
+    width: 25%;
+  }
+  
+
+
+  .left{
+      text-align: center;
+  }
+
+  h1{
+      font-size: 25px;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  p{
+      font-size: 18px;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  li{
+    display:inline-block;;
+    margin: 0.5em;
+  }
+
+  header{
+    text-align:center;
+    margin:5%;
+    max-width: 950px;
+
+  }
+
+  header a{
+    padding:5px;
+    background-image: none;
+  }
+  
+
+  
