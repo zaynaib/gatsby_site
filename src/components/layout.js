@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import { rhythm } from "../utils/typography"
 import { Helmet } from "react-helmet"
 import layoutStyles from "../styles/layout.module.css"
 import favicon from '../images/favicon.ico'
