@@ -1,9 +1,10 @@
 import React from "react"
-
 import { Link } from "gatsby"
-import layoutStyles from "../styles/layout.module.css"
 import { rhythm } from "../utils/typography"
 import { Helmet } from "react-helmet"
+import layoutStyles from "../styles/layout.module.css"
+import favicon from '../images/favicon.ico'
+
 
 
 
@@ -20,6 +21,7 @@ export default function Layout({ children }) {
     <Helmet>
       <meta charSet="utf-8" />
       <title>Code with Ola</title>
+      <link rel="icon" href={favicon}/>
     </Helmet>
     <nav>
       <ul class="navbar-menu" style={{ listStyle: `none`, float: `right` }}>
