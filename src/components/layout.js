@@ -29,6 +29,8 @@ export default function Layout({ children }) {
         <ListLink to="/about/">About</ListLink>
         <ListLink to="/posts/">Blog</ListLink>
         <ListLink to="/portfolio/">Portfolio</ListLink>
+        <ListLink to="/dataviz/">Data Viz</ListLink>
+
       </ul>
       </nav>
     

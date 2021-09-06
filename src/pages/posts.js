@@ -38,8 +38,8 @@ export default function Posts({ data }) {
   )
 }
 
-export const query = graphql`
-query {
+export const query = graphql
+`query {
     allDevArticles{
       edges {
         node {
