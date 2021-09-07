@@ -18,7 +18,7 @@ export default function Vizlayout(props){
               <h5 class="card-title">{props.title}</h5>
               <p class="card-text">
                 {props.desc} <br></br>
-                <a href="#!" class="btn btn-primary">Check it out</a>
+                <a href={props.link} class="btn btn-primary">Check it out</a>
 
               </p>
 
