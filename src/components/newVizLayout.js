@@ -6,7 +6,7 @@ export default function Vizlayout(props){
     return(
         
               
-          <div className={cardStyles.container}>
+          <div className="card">
 
             <div className={cardStyles.container}>
               <img src={props.img} class="img-fluid" />
@@ -19,7 +19,6 @@ export default function Vizlayout(props){
               <p class="card-text">
                 {props.desc} <br></br>
                 <a href="#!" class="btn btn-primary">Check it out</a>
-
               </p>
 
               
