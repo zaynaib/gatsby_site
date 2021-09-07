@@ -4,8 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Vizlayout from "../components/reactCards"
 import Container from 'react-bootstrap/Container';
-import basketball from "../images/basketball.png"
-import customers from "../images/tableau-customers.png"
+import PowerPuff from "../images/basektball.png"
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -16,10 +15,10 @@ export default function Viz() {
           <Container>
             <Row>
              <Col>
-             <Vizlayout img ={basketball}> </Vizlayout>
+             <Vizlayout img ={PowerPuff}> </Vizlayout>
              </Col>
              <Col>
-             <Vizlayout img ={customers}title="test" desc="some text about this image portfolio"> </Vizlayout>
+             <Vizlayout img ="https://mdbootstrap.com/img/new/standard/nature/023.jpg" title="test" desc="some text about this image portfolio"> </Vizlayout>
              </Col>
             </Row>
             
