@@ -10,6 +10,7 @@ import Col from 'react-bootstrap/Col';
 export default function Viz() {
   return (
       
+          <Layout>
           <Container>
             <Row>
              <Col>
@@ -30,7 +31,7 @@ export default function Viz() {
            </Row>
 
            </Container>
-        
+           </Layout>
      
   )
 }
