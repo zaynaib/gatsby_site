@@ -9,12 +9,6 @@ module.exports = {
     title: `Title from siteMetadata Ola`,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
 
     {
       resolve: "gatsby-source-dev",

@@ -5,6 +5,9 @@
         grid-column-gap: 50px;
 
     }
+    .photo img{
+        border-radius:100%
+    }
   }
 
   #cool-cats{
