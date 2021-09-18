@@ -1,5 +1,8 @@
 import * as React from "react"
 import { Link } from "gatsby"
+
+import "../styles/dataviz-styles.scss"
+
 import Layout from "../components/layout"
 import Vizlayout from "../components/newVizLayout"
 
