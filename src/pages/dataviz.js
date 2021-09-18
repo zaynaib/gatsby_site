@@ -11,9 +11,38 @@ import "../styles/test.scss"
 export default function Viz() {
   return (
       <Layout>
+          
 
-           <Vizlayout img ={Basketball} link="https://public.tableau.com/app/profile/zaynaib/viz/Basketball-injuries/Sheet1" title="Baketball Injuries" desc="Tableau Visualization of Injuries of Basketball Players in the NBA"> </Vizlayout>
-           <Vizlayout img ={Customers} link="https://public.tableau.com/app/profile/zaynaib/viz/lesson7/Story1" title="UK bank customers" desc="Tableau Dashboard of Bank Customers in the UK"> </Vizlayout>           
+      <div class="columns">
+          <div class="column">
+            <Vizlayout></Vizlayout>
+          </div>
+          <div class="column">
+            <Vizlayout></Vizlayout>
+          </div>
+
+          
+    </div>
+
+    
+    <div class="columns">
+    <div class="column">
+      <Vizlayout></Vizlayout>
+    </div>
+    <div class="column">
+      <Vizlayout></Vizlayout>
+    </div>
+</div>
+
+
+<div class="columns">
+<div class="column">
+  <Vizlayout></Vizlayout>
+</div>
+<div class="column">
+  <Vizlayout></Vizlayout>
+</div>
+</div>
         
       </Layout>
   )
