@@ -36,7 +36,7 @@ export default function Layout({ children }) {
     
     <header style={{ marginBottom: `1.5rem` }}>
      <h1 className="title">Hi I'm Ola</h1>
-     <h2 className="title">Full-Stack Developer / Data Enthusiast</h2>
+     <h2 className="title"> Data Analyst/ Full-Stack Enthusiast</h2>
     </header>
     <div className="content">
 

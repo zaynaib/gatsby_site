@@ -10,7 +10,7 @@ export default function About({ data }) {
     <Layout>
       <AboutLayout>
         <p>
-          My name is Zaynaib Giwa.
+          My name is Zaynaib Giwa but everyone calls me Ola.
           I am a Data Analyst who also enjoys web development.
           I was born and raised in Chicago where I am currently a Teaching Assistant for a Data Science Bootcamp.
 
@@ -24,8 +24,8 @@ export default function About({ data }) {
         <p>
           <b>How do I do this?</b>
           <ul>
-            <li>Co-organizer of R-Ladies Chicago - An organization that promotes gender diversity in the R community</li>
-            <li>Teaching Assistant for Hacking 4 Justice - An organization that provides free R training to anyone.</li>
+            <li>Co-organizer of <a href="https://www.rladieschicago.org/">R-Ladies Chicago</a> - An organization that promotes gender diversity in the R community</li>
+            <li>Teaching Assistant for <a href="https://hacking4justice.org/">Hacking 4 Justice</a> - An organization that provides free R training to anyone.</li>
             <li> <Link to="/posts/">Blogging</Link> about things that I learn.</li> 
             <li><p>Hanging out with CoolCats</p> <img id="cool-cats" src="https://i.pinimg.com/736x/1c/6a/a4/1c6aa47e0e518b552e7be7ea08f761ed.jpg"/> 
              <p>A meetup group that helps people transition from coding bootcamp into their tech careers</p> </li>
