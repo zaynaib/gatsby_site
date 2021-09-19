@@ -36,7 +36,7 @@ export default function Layout({children }) {
       {children}
       </div>
 
-      <footer>
+      <footer class="is-flex is-justify-content-center">
         <a href="https://github.com/zaynaib">Github</a>
         <a href="https://twitter.com/AmazingSpeciali">Twitter</a>
         <a href="https://www.linkedin.com/in/zaynaib-ola-giwa/">LinkedIn</a>

@@ -4,8 +4,14 @@
 $link: #1CA086;
 $family-primary:'Quattrocento Sans', sans-serif;
 $card-header-color:#1CA086;
+
+//$body-size
+
+.navLink a{
+   font-size:125%;
+}
 p{
-   font-size: 120%
+   font-size: 120%;
 }
 
 @import "~bulma/bulma.sass";
