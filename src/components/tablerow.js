@@ -19,6 +19,10 @@ export default function Row(props) {
                     <a href={props.webpage}className="p-link">visit</a>
                     <a href={props.github}className="p-link">source</a>
             </td>
+
+            <td>
+                {props.skills}
+            </td>
         </tr>
         
         )
@@ -37,6 +41,10 @@ export default function Row(props) {
             
             <td>
                     <a href={props.github}className="p-link">source</a>
+            </td>
+
+            <td>
+                {props.skills}
             </td>
 
             </tr>
