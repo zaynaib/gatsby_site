@@ -17,7 +17,7 @@ export default function Layout({children }) {
       <ul class="navbar-menu" style={{ listStyle: `none`, float: `right` }}>
      
       <ListLink  to="/">Home</ListLink>
-        <ListLink to="/about/">About</ListLink>
+        <ListLink to="/talks/">Talks</ListLink>
         <ListLink to="/posts/">Blog</ListLink>
         <ListLink to="/portfolio/">Portfolio</ListLink>
         <ListLink to="/dataviz/">Data Viz</ListLink>

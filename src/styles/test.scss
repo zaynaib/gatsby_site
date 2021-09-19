@@ -3,6 +3,10 @@
 // If need, change your variables before importing Bulma
 $link: #1CA086;
 $family-primary:'Quattrocento Sans', sans-serif;
+$card-header-color:#1CA086;
+p{
+   font-size: 120%
+}
 
 @import "~bulma/bulma.sass";
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
