@@ -11,10 +11,34 @@ export default function About({ data }) {
       <AboutLayout>
         <p>
           My name is Zaynaib Giwa but everyone calls me Ola.
-          I am a Data Analyst who also enjoys web development.
-          I was born and raised in Chicago where I am currently a Teaching Assistant for a Data Science Bootcamp.
-
+          I am a Data Analyst who also enjoys learning about web programming.
+          I currently reside in Chicago and work as a Teaching Assistant for a Data Science Bootcamp.
         </p>
+
+         <h4> My skills include</h4>
+
+        <p>
+
+            <b>Languages </b>:
+        
+            Python, R, JavaScript, MySQL, HTML, CSS
+        </p>
+           
+        <p>
+        <b>Frameworks </b>:
+             Flask, jQuery, Bootstrap, Node.js,Express, D3
+        </p>
+          <p>
+            <b>Libraries/Packages</b>: Pandas, BeautifulSoup, Tidyverse, Shiny <br></br>
+          
+        </p>
+
+        <p>
+          <b>Technologies</b>: Tableau<br></br>
+      
+         </p>
+
+         <h4> My philosophy</h4>
 
         <p>
         I believe that everyone has a place in tech. It doesn’t matter your zip code or if you even have a degree.  In my spare time I try to contribute to the tech community.
