@@ -1,20 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
 import layoutStyles from "../styles/layout.module.css"
 import favicon from '../images/favicon.ico'
+import ListLink from "./listLink"
 
 
-
-
-
-const ListLink = props => (
-    <li style={{ display: `inline-block`, marginRight: `1rem` }}>
-      <Link to={props.to}>{props.children}</Link>
-    </li>
-  )
-
-export default function Layout({ children }) {
+export default function Layout({children }) {
   return (
     <div className={layoutStyles.layout} >
     <Helmet>
@@ -38,6 +29,8 @@ export default function Layout({ children }) {
      <h1 className="title">Hi I'm Ola</h1>
      <h2 className="title"> Data Analyst/ Full-Stack Enthusiast</h2>
     </header>
+
+
     <div className="content">
 
       {children}

@@ -1,10 +1,13 @@
+.navLink{
+    font-size:125%
+}
+
 .layout{
     margin:3rem auto;
     max-width: 650px;
     padding: 0 1rem;  
 
 }
-
 
 .content{
     min-height: calc(100vh - 70px);
@@ -20,6 +23,3 @@ footer{
 
 }
 
-/* h1{
-    font-family: 'Permanent Marker', cursive;
-} */

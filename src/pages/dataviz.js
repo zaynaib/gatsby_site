@@ -1,7 +1,6 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
-import Vizlayout from "../components/copyLayout"
+import Vizlayout from "../components/dataVizLayout"
 
 import Basketball from "../images/basketball.png"
 import Customers from "../images/customers.png"
